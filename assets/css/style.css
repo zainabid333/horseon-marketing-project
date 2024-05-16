@@ -1,15 +1,16 @@
+/* Resetting default styles for all elements */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-/* setting the background color for the whole body */
+/* Setting the background color for the whole body */
 body {
   background-color: #d9dcd6;
 }
 
-/* setting up the header background color fontfamily and text color */
+/* Styling the header */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -18,19 +19,18 @@ header {
   color: #ffffff;
 }
 
-/* styling the h1 tag in header seperate from other header elements */
+/* Styling the h1 tag in the header */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-/* styling the span element inside the h1 tag specifically */
+/* Styling the span element inside the h1 tag */
 header h1 .seo {
   color: #d9dcd6;
 }
 
-/* styling the navigational menu in header section to be on right of page with a little bit
-of margin and padding with font style and size */
+/* Styling the navigational menu in the header */
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -39,23 +39,25 @@ header nav {
   font-size: 20px;
 }
 
-/* styling the list items in nav of header to display them in a single line and with a bit of margin
-and making the list style without any dots or numbers besides them */
+/* Styling the list items in the navigation */
 header nav ul li {
   list-style-type: none;
   display: inline-block;
   margin-left: 25px;
 }
 
+/* Styling links */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Styling paragraphs */
 p {
   font-size: 16px;
 }
 
+/* Styling the hero section */
 .hero {
   height: 800px;
   width: 100%;
@@ -65,6 +67,7 @@ p {
   background-position: center;
 }
 
+/* Floating elements */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -75,14 +78,16 @@ p {
   margin-left: 25px;
 }
 
+/* Styling the main content section */
 .content {
   width: 75%;
   height: 100%;
   display: inline-block;
-  margin-left: 20px;
-  margin: 20px;
+  margin-left: 20px; /* Consider removing this line as it's overridden by the next line */
+  margin: 20px; /* This line overrides the previous one */
 }
 
+/* Styling individual content sections */
 .content-section {
   max-height: 200px;
   margin-bottom: 20px;
@@ -93,11 +98,13 @@ p {
   color: #ffffff;
 }
 
+/* Styling h2 tags within content sections */
 .content-section h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Styling the benefits section */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -112,22 +119,27 @@ p {
   text-align: center;
 }
 
+/* Styling h3 tags within benefits section */
 h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Styling images */
 img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
+
+/* Styling benefit sections */
 .benefit-section {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Styling the footer */
 .footer {
   padding: 30px;
   clear: both;
@@ -136,123 +148,7 @@ img {
   text-align: center;
 }
 
+/* Styling h2 tags within footer */
 .footer h2 {
   font-size: 20px;
 }
-
-/* 
-.benefit-brand .benefit-lead {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-} */
-
-/* 
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-} */
-
-/* 
-.search-engine-optimization {
-  max-height: 200px;
-}
-
-.online-reputation-management {
-  max-height: 200px;
-}
-
-.social-media-marketing {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-} */
-
-/* 
-header nav ul {
-  list-style-type: none;
-} */
-
-/*
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-} */
-/*
-overrides the other attribute for margin
-
- .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-brand h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-lead  {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
